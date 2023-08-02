@@ -4,14 +4,15 @@ pwd
 cd <directory>
 cd .. (going back)
 mkdir <nombre>
-ls (lista de archivos)  ls -l
+ls (lista de archivos)  ls -l    ls -a
+rm <nombre> eliminar file
+mv <nombre original> <nombre nuevo>
 
-
-
+## Comandos Git
 
 
 git --version
-git status
+
 
 
 -----
@@ -23,5 +24,19 @@ git config --global user.email guvargas@gmail.com
 git config --global core.editor "code --wait"
 git config --global -e
 git config --global core.autocrlf    (true for windows / input for mac and linux)
+
+git status
+git status -s
+git add <nombre>  // git add *.txt  // git add .
+git commit <nombre> -m "Descripcion del cambio"
+git rm <nombre>
+git restore --staged <nombre>
+git restore <nombre>
+git mv <nombre original> <nombre nuevo>
+
+
+## ignorar archivos
+crear archivo .env   y agregar la informacion que quiero tener
+crear archivo .gitignore y agregar en la primera linea (los archivos que quiero ignorar como por ejemplo .env)
 
 
