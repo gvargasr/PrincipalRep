@@ -32,7 +32,7 @@ git commit <nombre> -m "Descripcion del cambio"
 git rm <nombre>
 git restore --staged <nombre>
 git restore <nombre>
-git mv <nombre original> <nombre nuevo>
+git mv <nombre original> <nombre nuevo> 
 
 
 ## ignorar archivos
