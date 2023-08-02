@@ -1,0 +1,27 @@
+## Linux commands
+
+pwd
+cd <directory>
+cd .. (going back)
+mkdir <nombre>
+ls (lista de archivos)  ls -l
+
+
+
+
+
+git --version
+git status
+
+
+-----
+## Crear repository
+git config --global user.name "Gustavo Vargas"
+git config --global user.email guvargas@gmail.com
+
+#configurar editor de texto
+git config --global core.editor "code --wait"
+git config --global -e
+git config --global core.autocrlf    (true for windows / input for mac and linux)
+
+
