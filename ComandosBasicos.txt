@@ -25,6 +25,7 @@ git config --global core.editor "code --wait"
 git config --global -e
 git config --global core.autocrlf    (true for windows / input for mac and linux)
 
+git remote show origin // ver la current URL del Github repository
 git status
 git status -s
 git add <nombre>  // git add *.txt  // git add .
