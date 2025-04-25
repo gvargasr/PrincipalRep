@@ -1,0 +1,6 @@
+- Plex Media server: para ver series y peliculas
+- sonarr: descargar anime
+- jackett: repositories torrent para descargas de anime
+- nextcloud: para hacer backup locales de fotos y archvos (google drive / icloud)
+- tftp server
+- ssh access
